@@ -1,0 +1,10 @@
+#!/bin/bash
+
+STATUS $?
+
+if [ "$STATUS" ];
+then
+	echo "the last command was successful"
+else
+	echo "the last command was not successful"
+fi
